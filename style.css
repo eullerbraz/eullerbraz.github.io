@@ -1,8 +1,53 @@
 body {
     background-color: #091317;
     color: #FFFFFF;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    line-height: 30px;
+}
+
+.title-color {
+    color: #4B89B8;
+}
+
+.nome {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 20px;
+    font-size: 20px;
+
+}
+
+p {
+    font-size: 16px;
 }
 
 a {
     color: #4B89B8;
+}
+
+.raclog {
+    font-size: 20px;
+}
+
+.conc {
+    font-size: 18px;
+}
+
+.asser {
+    font-size: 16px;
+}
+
+.org {
+    font-size: 14px;
+}
+
+.infos {
+    text-decoration: underline;
+    line-height: 30px;
 }
