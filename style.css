@@ -2,6 +2,7 @@ body {
     background-color: #091317;
     color: #FFFFFF;
     font-family: sans-serif;
+    text-align: center;
 }
 
 h1 {
@@ -25,6 +26,7 @@ h2 {
 
 p {
     font-size: 16px;
+    line-height: 30px;
 }
 
 a {
@@ -50,4 +52,11 @@ a {
 .infos {
     text-decoration: underline;
     line-height: 30px;
+}
+
+.imagens {
+    border-radius: 50%;
+    border-style: solid;
+    margin: 0 auto;
+    display: flex;
 }
