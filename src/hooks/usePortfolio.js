@@ -3,7 +3,15 @@ import { useState, useEffect } from 'react';
 const ENDPOINT = 'https://gitconnected.com/v1/portfolio/eullerbraz';
 
 export default () => {
-  const [gitHubInfo, setGitHubInfo] = useState();
+  const [gitHubInfo, setGitHubInfo] = useState({
+    basics: {
+      name: '',
+      headline: '',
+      summary: '',
+      profiles: [],
+    },
+    projects: [],
+  });
 
   useEffect(() => {
     const fetchData = async () => {

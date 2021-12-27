@@ -1,7 +1,12 @@
 import { createContext } from 'react';
 
 const portfolioContext = createContext({
-  basics: {},
+  basics: {
+    name: '',
+    headline: '',
+    summary: '',
+    profiles: [],
+  },
   projects: [],
 });
 
